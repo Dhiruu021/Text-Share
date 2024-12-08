@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Text</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Share </h1>
+
+       
+        <div class="device1" id="device1">
+            <h2>Device 1 - Enter Text to Share</h2>
+            <textarea id="textToShare" placeholder="Enter text to share..."></textarea>
+            <button onclick="shareText()">Share Text</button>
+        </div>
+
+       
+        <div class="device2" id="device2">
+            <h2>Device 2 - Received Text</h2>
+            <div id="sharedTextDisplay" class="sharedText">
+                No text received yet.
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
